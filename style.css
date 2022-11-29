@@ -518,3 +518,30 @@ main {
     padding-left: 23px;
   }
   /* End Footer */
+
+  /* Responsive */
+
+  @media (max-width: 500px) { 
+    .down-header {
+        width: 100%;
+      }
+  }
+  @media (max-width: 300px) {
+    .down-header {
+        width: 100%;
+      }
+      footer{
+        width: 400em;
+      }
+  }
+  @media (max-width: 500px) {
+    .images-side{
+        width:80px;
+    }
+  }
+  
+  @media (min-width : 1700px) {
+    main{
+        width: 100%;
+    }
+  }
